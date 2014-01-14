@@ -2,6 +2,10 @@
  
 ##Learning Competencies 
 
+* Create well-defined classes with a single responsibility
+* Implement clean and flexible interfaces between objects
+* Use effective naming conventions
+
 ##Summary 
 
  You'll be building an interface for a hospital. The main components are: the actual hospital, employees (janitors, receptionists, and doctors), and patients.
@@ -10,20 +14,12 @@ The goal of this challenge is to explore the utility of object-oriented design. 
 
 This is a fairly open-ended challenge.  The expectations are loose, so you will be making most of the decisions about how to design and build your program.  Talk it out with your pair. Go to the whiteboard.  Argue about names.  Have fun!
 
-###Learning Goals
-* Object Oriented Design
-* Proper Naming
 
-###As you are coding, ask yourself...
+##Releases
 
-* How will I use this class?
-* How will this class interact with the other classes?
-* Does this attribute need to be private or public?
-* Are my methods and variables well named?
+###Release 0 : Basic Objects
 
-## Objectives
-
-### Create the Hospital
+####Create the Hospital
 
 Write the code that will create a new hospital object. 
 
@@ -31,19 +27,19 @@ What types of attributes or accessors will be needed?
 
 For example, you'll definitely need a name for the hospital. You can also add its location, number of employees, and number of patients.
 
-### Create the Patients
+#### Create the Patients
 
 Your patients will be stored in the hospital database.  (Don't worry about creating a database - just have a way for the hospital to store the patient's records).
 
 Can you think of anything they might inherit from the hospital, or is inheritance not needed here? These design decisions are up to you.
 
-### Create the Employees
+#### Create the Employees
 
 There are multiple types of employees, and you're free to create your own. 
 
 A few obvious examples are doctors, receptionists, and janitors.  What attributes and methods might they all share?  What will be different for each?
 
-### Build Authentication System
+###Release 1 : Build Authentication System
 
 Now imagine you're delivering this software and it's going to run as a Ruby file in Terminal. 
 
@@ -72,9 +68,15 @@ $ ruby hospital.rb
 > - remove_record <patient_id> <record_id>
 ``` 
 
-##Releases
-###Release 0 
 
 ##Optimize Your Learning 
+
+As you are coding, ask yourself...
+
+ * How will I use this class?
+ * How will this class interact with the other classes?
+ * Does this attribute need to be private or public?
+ * Are my methods and variables well named?
+
 
 ##Resources
